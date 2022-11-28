@@ -1,0 +1,31 @@
+# Get Started
+
+The **cupboard-ui** library is built on `Tailwind`, therefore, to use this library, you need to install `Tailwind` and all the installation process of `Tailwind` can be read in [here](https://tailwindcss.com/docs/installation)
+
+## Installation
+
+Install the plugin from npm
+
+```bash
+npm install cupboard-ui
+```
+
+Then add the plugin to your `tailwind.config.js` file:
+
+```javascript filename="tailwind.config.js" {6}
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('cupboard-ui'),
+    // ...
+  ],
+}
+```
+
+And import cupboard-ui styling in your stylesheet.
+
+```css filename="style.css"
+@import url('./node-modules/cupboard-ui/lib/style.css');
+```

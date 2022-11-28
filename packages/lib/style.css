@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Retina;
+  font-weight: normal;
+  src: url(./fonts/Retina/Retina-Regular.woff2) format('woff2'),
+    url(./fonts/Retina/Retina-Regular.woff) format('woff'),
+    url(./fonts/Retina/Retina-Regular.ttf) format('truetype'),
+    url(./fonts/Retina/Retina-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: Retina;
+  font-weight: 500;
+  src: url(./fonts/Retina/RetinaMedium.woff2) format('woff2'),
+    url(./fonts/Retina/RetinaMedium.woff) format('woff'),
+    url(./fonts/Retina/RetinaMedium.ttf) format('truetype'),
+    url(./fonts/Retina/RetinaMedium.otf) format('opentype');
+}
+@font-face {
+  font-family: Retina;
+  font-weight: 800;
+  src: url(./fonts/Retina/Retina-Bold.woff2) format('woff2'),
+    url(./fonts/Retina/Retina-Bold.woff) format('woff'),
+    url(./fonts/Retina/Retina-Bold.ttf) format('truetype'),
+    url(./fonts/Retina/Retina-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: Retina;
+  font-weight: 900;
+  src: url(./fonts/Retina/RetinaBlack.woff2) format('woff2'),
+    url(./fonts/Retina/RetinaBlack.woff) format('woff'),
+    url(./fonts/Retina/RetinaBlack.ttf) format('truetype'),
+    url(./fonts/Retina/RetinaBlack.otf) format('opentype');
+}

@@ -1,0 +1,44 @@
+{
+  "name": "cupboard-ui-demo",
+  "version": "0.0.0",
+  "description": "A demo for design language that keeps everyone aligned.",
+  "license": "MIT",
+  "private": true,
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/mdx": "^2.1.5",
+    "@next/mdx": "^13.0.5",
+    "@types/node": "18.7.1",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.2.1",
+    "highlight.js": "^10.4.1",
+    "next": "12.2.4",
+    "nextra": "2.0.0-beta.6",
+    "nextra-theme-docs": "2.0.0-beta.6",
+    "postcss": "^8.2.3",
+    "prettier": "^2.1.2",
+    "prism-react-renderer": "^1.3.5",
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {},
+  "workspaces": [
+    "packages/**"
+  ]
+}
