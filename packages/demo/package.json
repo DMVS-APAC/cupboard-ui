@@ -14,7 +14,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start -p 6060"
   },
   "devDependencies": {
     "@mdx-js/loader": "^2.1.5",

@@ -35,6 +35,17 @@ export default {
       <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+      <script
+        lang="javascript"
+        dangerouslySetInnerHTML={{
+          __html: `
+      window.localStorage.setItem("theme", "light");
+      window.localStorage.setItem("theme_default", "light");
+      document.documentElement.classList.add("light");
+      document.documentElement.classList.remove("dark");
+    `,
+        }}
+      />
     </>
   ),
   search: null,
@@ -43,5 +54,5 @@ export default {
   footer: false,
   projectLink: null,
   footerEditLink: null,
-  // darkMode: false,
+  darkMode: false,
 }
