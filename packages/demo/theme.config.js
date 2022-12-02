@@ -43,5 +43,5 @@ export default {
   footer: false,
   projectLink: null,
   footerEditLink: null,
-  darkMode: false,
+  // darkMode: false,
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import CodeRender from '../../components/CodeRender'
+import CodeRender from './CodeRender'
 
 export enum FontType {
   regular = 'dm__font-retina',

@@ -13,7 +13,9 @@
     "trailingComma": "es5"
   },
   "scripts": {
-    "dev": "yarn workspace cupboard-ui-demo dev"
+    "dev": "yarn workspace cupboard-ui-demo dev",
+    "build": "yarn workspace cupboard-ui-demo build",
+    "start": "yarn workspace cupboard-ui-demo start"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0 || insiders"
